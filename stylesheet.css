@@ -1,0 +1,46 @@
+#divBoard{
+    position:relative;
+    top: 40px;
+    left:60px;
+    width: 480px;
+    height:480px;
+    border-style: solid;
+    border-width: 2px;
+
+}.Square{
+     position:absolute;
+     width:60px;
+     height:60px;
+ }
+.SquareLight{
+    background-color: #afdde9;
+}
+.SquareDark{
+    background-color: #5fbcd3;
+}
+.SquareSelected{
+    background-color: #216778;
+}
+.r8 { top: 420px; }
+.r7 { top: 360px; }
+.r6 { top: 300px; }
+.r5 { top: 240px; }
+.r4 { top: 180px; }
+.r3 { top: 120px; }
+.r2 { top: 60px; }
+.r1 { top: 0px; }
+
+.f1 { left: 0px; }
+.f2 { left: 60px; }
+.f3 { left: 120px; }
+.f4 { left: 180px; }
+.f5 { left: 240px; }
+.f6 { left: 300px; }
+.f7 { left: 360px; }
+.f8 { left: 420px; }
+
+.Piece{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+}
